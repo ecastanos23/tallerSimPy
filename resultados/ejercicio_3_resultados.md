@@ -33,7 +33,7 @@
 | 4       | 128      | 609.7           | 0.93          | 6.51         | 36.78        | 93.13       | 27.88        | 63.00       |
 | 5       | 139      | 716.0           | 0.80          | 5.68         | 67.87        | 166.88      | 8.09         | 30.42       |
 
-## Tabla de Resultados Agregada (5 Corridas)
+## Tabla de Resultados (5 Corridas)
 
 | Métrica | Promedio | Desv. Est. |
 |--------|----------|-----------|
