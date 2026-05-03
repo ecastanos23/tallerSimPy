@@ -45,19 +45,19 @@ La cafetería presenta una alta demanda con un cajero muy ocupado (94.49%). Los 
 - Tiempo cola promedio: 0.95 min
 - Tiempo cola máximo: 6.45 min
 - Ocupación: 40.29%
-- **Estado**: Sin congestión ✓
+- **Estado**: Sin congestión 
 
 **AUTENTICACIÓN DE DOCUMENTOS:** (CUELLO DE BOTELLA)
 - Tiempo cola promedio: 75.22 min
 - Tiempo cola máximo: 158.80 min
 - Ocupación: 97.46%
-- **Estado**: Crítico ✗
+- **Estado**: Crítico 
 
 **EMISIÓN DE DOCUMENTOS LEGALES:**
 - Tiempo cola promedio: 26.05 min
 - Tiempo cola máximo: 54.62 min
 - Ocupación: 69.68%
-- **Estado**: Moderado ⚠
+- **Estado**: Moderado 
 
 **SISTEMA COMPLETO:**
 - Tiempo promedio en sistema: 67.61 minutos
@@ -81,7 +81,7 @@ La cafetería presenta una alta demanda con un cajero muy ocupado (94.49%). Los 
 
 ### Análisis de Diferencias:
 
-#### ✓ CONSISTENCIAS (Confiables):
+#### CONSISTENCIAS (Confiables):
 1. **Autenticación = Cuello de Botella**: Ambas simulaciones lo identifican
    - Simul8: 95.40% ocupación
    - SimPy: 97.46% ocupación
@@ -92,7 +92,7 @@ La cafetería presenta una alta demanda con un cajero muy ocupado (94.49%). Los 
    - SimPy: 40.29%
    - Ambas indican que NO es cuello de botella
 
-#### ⚠ DIFERENCIAS SIGNIFICATIVAS:
+#### DIFERENCIAS SIGNIFICATIVAS:
 
 1. **Tiempos de Cola (59.5% y 56.8% más altos en SimPy)**
    - Posibles causas:
@@ -110,7 +110,7 @@ La cafetería presenta una alta demanda con un cajero muy ocupado (94.49%). Los 
    - SimPy: 69.68%
    - Diferencia notable, posiblemente por distribuciones
 
-### ✓ VALIDACIÓN DEL MODELO:
+### VALIDACIÓN DEL MODELO:
 
 A pesar de las diferencias numéricas, ambas simulaciones:
 1. Identifican la misma estación como cuello de botella (Autenticación)
@@ -157,11 +157,11 @@ A pesar de las diferencias numéricas, ambas simulaciones:
 
 | Aspecto | Nivel de Confianza |
 |--------|------------------|
-| Identificación de cuello botella | **ALTO** ✓ |
-| Necesidad de mejoras en autenticación | **ALTO** ✓ |
-| Valores absolutos de tiempos | **MODERADO** ⚠ |
-| Ocupación de recursos | **ALTO** ✓ |
-| Ranking de estaciones | **ALTO** ✓ |
+| Identificación de cuello botella | **ALTO**  |
+| Necesidad de mejoras en autenticación | **ALTO**  |
+| Valores absolutos de tiempos | **MODERADO** |
+| Ocupación de recursos | **ALTO**  |
+| Ranking de estaciones | **ALTO**  |
 
 ### Desviaciones Estándar (Muestra de 5 corridas):
 - Clientes atendidos: ±12.9 clientes
@@ -174,14 +174,11 @@ La variabilidad es moderada, indicando sistema estable pero sensible a condicion
 
 ## 7. CONCLUSIONES FINALES
 
-1. ✓ **Modelos Válidos**: SimPy y Simul8 producen resultados congruentes
-2. ✓ **Problema Identificado**: Estación de autenticación saturada
-3. ✓ **Solución Clara**: Agregar recurso o optimizar proceso
-4. ✓ **Datos Confiables**: Diferencias explicables por metodología
-5. ✓ **Listo para Implementación**: Recomendaciones basadas en análisis sólido
+1.  **Modelos Válidos**: SimPy y Simul8 producen resultados congruentes
+2.  **Problema Identificado**: Estación de autenticación saturada
+3.  **Solución Clara**: Agregar recurso o optimizar proceso
+4.  **Datos Confiables**: Diferencias explicables por metodología
+5.  **Listo para Implementación**: Recomendaciones basadas en análisis sólido
 
 ---
-
-**Generado**: Mayo 2, 2026  
-**Programa**: SimPy 4.1.1 (Python 3.14)  
-**Comparación**: vs Simul8 (Imagen proporcionada)
+  
