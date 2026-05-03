@@ -99,34 +99,21 @@
 
 ## CONCLUSIONES CLAVE
 
-### ✓ Hallazgos Principales:
+### Hallazgos Principales:
 1. **Modelos Válidos**: SimPy reproduce fielmente resultados de Simul8
 2. **Bottleneck Claro**: Autenticación en Notaría es crítica (97.46% ocupación)
 3. **Recomendación Inmediata**: Agregar servidor en Autenticación reduciría tiempos 48%
 4. **Sistemas Estables**: E1 y E2 son sostenibles con monitoreo
 
-### ⚠ Áreas de Atención:
+### Áreas de Atención:
 - Notaría: Urgencia media-alta
 - Cafetería: Monitorear en horarios pico
 - Cajero: Sistema estable
 
-### 📊 Confiabilidad:
+###  Confiabilidad:
 - **Muy Alta** (>95%): Identificación de cuellos de botella
 - **Alta** (>85%): Valores de ocupación
 - **Moderada** (>70%): Tiempos absolutos (sensibles a semillas)
 
----
 
-## ARCHIVOS GENERADOS
 
-- ✓ `ejercicio_1_resultados.md` - Cafetería (3 corridas)
-- ✓ `ejercicio_2_resultados.md` - Cajero (5 corridas)  
-- ✓ `ejercicio_3_resultados.md` - Notaría (5 corridas + validación Simul8)
-- ✓ `COMPARACION_SIMPY_VS_SIMUL8.md` - Análisis detallado
-- ✓ `RESUMEN_EJECUTIVO.md` - Este documento
-
----
-
-**Generado**: 2026-05-02  
-**Herramienta**: SimPy 4.1.1 (Python 3.14)  
-**Validación**: Comparación con Simul8
